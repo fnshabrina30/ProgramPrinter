@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace IClassprinter
+{
+    public class ConvertToCsv LaserJet : IPrinterWindows
+    {
+        public override void Convert(Show)
+        {
+            Console.WriteLine("LaserJet display dimension : 12*12");
+        }
+
+        public override void Convert(Print)
+        {
+            Console.WriteLine("LasetJet printer printing....");
+        }
+    }
+}

@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace IClassprinter
+{
+    public class ConvertToCsv : IPrinterWindows
+    {
+        public virtual void Convert(Show)
+        {
+            Console.WriteLine();
+        }
+
+        public virtual void Convert(Print)
+        {
+            Console.WriteLine();
+        }
+    }
+}
